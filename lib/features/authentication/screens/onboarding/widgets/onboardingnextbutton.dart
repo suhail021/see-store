@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google/features/authentication/controllrts.onboarding/onboarding_controller.dart';
 import 'package:google/utils/constants/exports.dart';
 import 'package:google/utils/device/device_utility.dart';
 import 'package:google/utils/helpers/helper_functions.dart';
@@ -13,7 +14,9 @@ class OnboardingNextButton extends StatelessWidget {
       right: SeeSizes().defaultSpace,
       bottom: SeeDeviceUtils.getBottomNavigationBarHeight(),
       child: ElevatedButton(
-        onPressed: () {},
+        onPressed: () {
+          OnboardingController.instance.nextPage();
+        },
         style: ElevatedButton.styleFrom(
           shape: const CircleBorder(),
           backgroundColor: dark ? SeeColors().primary : Colors.black,

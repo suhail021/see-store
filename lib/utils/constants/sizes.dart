@@ -24,7 +24,7 @@ class SeeSizes {
   double fontSizeLg = 18.0;
 
   // Button sizes
-  double buttonHeight = 20.0;
+  double buttonHeight = 18.0;
   double buttonRadius = 12.0;
   double buttonWidth = 120.0;
   double buttonElevation = 4.0;
@@ -36,8 +36,8 @@ class SeeSizes {
   double imageThumbSize = 80.0;
 
   // Default spacing between sections
-  double defaultSpace = 16.0;
-  double spaceBtwItems = 12.0;
+  double defaultSpace = 24.0;
+  double spaceBtwItems = 16.0;
   double spaceBtwSections = 32.0;
 
   // Border radius
@@ -49,7 +49,7 @@ class SeeSizes {
   double dividerHeight = 1.0;
 
   // Product item dimensions
-  double productImageSize = 120.0;
+  double productImageSize = 128.0;
   double productImageRadius = 16.0;
   double productItemHeight = 160.0;
 

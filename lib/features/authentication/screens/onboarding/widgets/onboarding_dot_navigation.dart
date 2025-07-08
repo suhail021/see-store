@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google/features/authentication/controllrts.onboarding/onboarding_controller.dart';
 import 'package:google/utils/constants/colors.dart';
 import 'package:google/utils/constants/sizes.dart';
 import 'package:google/utils/device/device_utility.dart';
@@ -10,10 +11,11 @@ class OnboardingDotNavigation extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final controller =OnboardingController.instance;
     final dark = SeeHelperFunctions.isDarkMode(context);
 
     return Positioned(
-      bottom: SeeDeviceUtils.getBottomNavigationBarHeight() * 25,
+      bottom: SeeDeviceUtils.getBottomNavigationBarHeight() + 25,
       left: SeeSizes().defaultSpace,
 
       child: SmoothPageIndicator(
@@ -22,7 +24,8 @@ class OnboardingDotNavigation extends StatelessWidget {
               dark ? SeeColors().lightBackground : SeeColors().darkBackground,
           dotHeight: 6,
         ),
-        controller: PageController(),
+        controller: controller.pageController,
+        onDotClicked: controller.dotNavigationClick,
         count: 3,
       ),
     );

@@ -7,16 +7,16 @@ class SeePricingCalculator {
     return totlePrice;
   }
 
-  static double calculateShippingCost(double productPrice, String location) {
+  static String calculateShippingCost(double productPrice, String location) {
     double shippingCost = getShippingCost(location);
 
-    return shippingCost.toStringAsFixed(2) as double;
+    return shippingCost.toStringAsFixed(2);
   }
 
-  static double calculateTax(double productPrice, String location) {
+  static String calculateTax(double productPrice, String location) {
     double taxRate = getTaxRatForLocation(location);
     double taxAmount = productPrice * taxRate;
-    return taxAmount.toStringAsFixed(2) as double;
+    return taxAmount.toStringAsFixed(2) ;
   }
 
   static double getTaxRatForLocation(String location) {

@@ -19,7 +19,7 @@ class OnBoardingPage extends StatelessWidget {
         children: [
           Image(
             width: SeeHelperFunctions.screenWidth() * 0.8,
-            height: SeeHelperFunctions.screenHeight() * 0.8,
+            height: SeeHelperFunctions.screenHeight() * 0.6,
             image: AssetImage(image),
           ),
           Text(
@@ -30,7 +30,7 @@ class OnBoardingPage extends StatelessWidget {
           SizedBox(height: SeeSizes().spaceBtwItems),
           Text(
             subtitle,
-            style: Theme.of(context).textTheme.headlineMedium,
+            style: Theme.of(context).textTheme.bodyMedium,
             textAlign: TextAlign.center,
           ),
         ],

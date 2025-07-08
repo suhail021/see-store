@@ -9,7 +9,6 @@ class OnboardingNextButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final dark = SeeHelperFunctions.isDarkMode(context);
-
     return Positioned(
       right: SeeSizes().defaultSpace,
       bottom: SeeDeviceUtils.getBottomNavigationBarHeight(),
@@ -17,7 +16,7 @@ class OnboardingNextButton extends StatelessWidget {
         onPressed: () {},
         style: ElevatedButton.styleFrom(
           shape: const CircleBorder(),
-          backgroundColor: dark ? SeeColors().primaryBackground : Colors.black,
+          backgroundColor: dark ? SeeColors().primary : Colors.black,
         ),
         child: const Icon(Iconsax.arrow_right_3),
       ),

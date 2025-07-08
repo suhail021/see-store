@@ -4,10 +4,8 @@ import 'package:google/features/authentication/screens/onboarding/widgets/onboar
 import 'package:google/features/authentication/screens/onboarding/widgets/onboarding_skip.dart';
 import 'package:google/features/authentication/screens/onboarding/widgets/onboardingnextbutton.dart';
 import 'package:google/utils/constants/image_strings.dart';
-import 'package:google/utils/constants/sizes.dart';
 import 'package:google/utils/constants/text_strings.dart';
-import 'package:google/utils/device/device_utility.dart';
-import 'package:iconsax/iconsax.dart';
+
 
 class OnboardingScreen extends StatelessWidget {
   const OnboardingScreen({super.key});

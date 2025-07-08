@@ -6,7 +6,7 @@ import 'package:google/utils/helpers/helper_functions.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class OnboardingDotNavigation extends StatelessWidget {
-  OnboardingDotNavigation({super.key});
+ const OnboardingDotNavigation({super.key});
 
   @override
   Widget build(BuildContext context) {

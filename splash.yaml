@@ -1,0 +1,14 @@
+flutter_native_splash:
+  color: "#ffffff"
+  color_dark: "#272727"
+  image: assets/logos/see-store-logo.png
+  image_dark: assets/logos/see-store-logo.png
+  android: true
+  ios: true
+  web: false
+
+  android_12:
+    color: "#ffffff"
+    color_dark: "#272727"
+    image: assets/logos/see-store-logo.png
+    image_dark: assets/logos/see-store-logo.pn  g

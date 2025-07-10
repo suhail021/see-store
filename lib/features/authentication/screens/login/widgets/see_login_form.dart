@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google/features/authentication/screens/password_configuration/forget_password.dart';
 import 'package:google/features/authentication/screens/signup/signup_screen.dart';
+import 'package:google/navigation_menu.dart';
 import 'package:google/utils/constants/sizes.dart';
 import 'package:google/utils/constants/text_strings.dart';
 import 'package:iconsax/iconsax.dart';
@@ -66,7 +67,7 @@ class SeeLoginForm extends StatelessWidget {
             SizedBox(
               width: double.infinity,
               child: ElevatedButton(
-                onPressed: () {},
+                  onPressed: () => Get.to(() => const NavigationMenu()),
                 child: const Text(SeeTexts.signIn),
               ),
             ),

@@ -3,8 +3,6 @@ flutter_native_splash:
   color_dark: "#272727"
   image: assets/logos/See-store-logo-light.png
   image_dark: assets/logos/See-Store-Logo-Dark.png
-  android: true
-  ios: true
   web: false
 
   android_12:

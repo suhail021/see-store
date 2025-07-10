@@ -26,6 +26,7 @@ class SeeAppTheme {
     inputDecorationTheme: SeeTextFormFieldTheme.lightInputDecorationTheme,
     bottomSheetTheme: SeeButtomSheetTheme.lightBottomSheetTheme
   );
+  
   static ThemeData darkTheme = ThemeData(
     useMaterial3: true,
     fontFamily: 'Popppins',

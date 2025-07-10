@@ -19,11 +19,11 @@ class SeeTextFormFieldTheme {
     ),
     enabledBorder:const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(14),
-      borderSide: const BorderSide(width: 1,color: Colors.grey)
+      borderSide: const BorderSide(width: 1,color: Colors.black12)
     )
    , focusedBorder:const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(14),
-      borderSide: const BorderSide(width: 1,color: Colors.black12)
+      borderSide: const BorderSide(width: 1,color: Colors.grey)
     )
    , focusedErrorBorder:const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(14),
@@ -31,7 +31,7 @@ class SeeTextFormFieldTheme {
     )
    , errorBorder:const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(14),
-      borderSide: const BorderSide(width: 2,color: Colors.red)
+      borderSide: const BorderSide(width: 1,color: Colors.red)
     )
   );
 
@@ -56,7 +56,7 @@ class SeeTextFormFieldTheme {
     )
    , focusedBorder:const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(14),
-      borderSide: const BorderSide(width: 1,color: Colors.black12)
+      borderSide: const BorderSide(width: 1,color: Colors.white)
     )
        , errorBorder:const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(14),

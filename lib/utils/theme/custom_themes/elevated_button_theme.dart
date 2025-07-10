@@ -30,7 +30,7 @@ class SeeElevatedButtomTheme{
       textStyle: const TextStyle(
         fontSize: 16,color: Colors.white,fontWeight: FontWeight.w600
       ),
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12))
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius. circular(12))
     )
   );
 }

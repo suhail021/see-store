@@ -13,7 +13,7 @@ class SeeCheckbocTheme {
     }),
     fillColor: WidgetStateProperty.resolveWith((states) {
       if (states.contains(WidgetState.selected)) {
-        return Colors.black;
+        return Colors.blue;
       } else {
         return Colors.transparent;
       }
@@ -30,7 +30,7 @@ class SeeCheckbocTheme {
     }),
     fillColor: WidgetStateProperty.resolveWith((states) {
       if (states.contains(WidgetState.selected)) {
-        return Colors.black;
+        return Colors.blue;
       } else {
         return Colors.transparent;
       }

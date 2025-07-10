@@ -16,6 +16,7 @@ class OnboardingScreen extends StatelessWidget {
      final controller =Get.put(OnboardingController());
 
     return Scaffold(
+      resizeToAvoidBottomInset: false,
       body: Stack(
         children: [
           PageView(

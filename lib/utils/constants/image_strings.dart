@@ -11,4 +11,13 @@ class SeeImage {
       "assets/images/on_boarding_images/on_boarding2.gif";
   static const String onBoardingImage3 =
       "assets/images/on_boarding_images/on_boarding3.gif";
+
+
+  static const String productsIllustration = "assets/images/animations/on_boarding1.gif";
+  static const String productsSaleIllustration = "assets/images/animations/on_boarding1.gif";
+  static const String staticSuccessIllustration = "assets/images/animations/on_boarding1.gif";
+  static const String deliveredInPlaneIllustration = "assets/images/animations/on_boarding1.gif";
+  static const String deliveredEmailIllustration = "assets/images/animations/on_boarding1.gif";
+  static const String verifyIllustration = "assets/images/animations/on_boarding1.gif";
+
 }

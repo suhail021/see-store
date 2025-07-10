@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:google/features/authentication/screens/signup/verify_email_screen.dart';
 import 'package:google/features/authentication/screens/signup/widgets/terms_conditions_checkbox.dart';
 import 'package:google/utils/constants/sizes.dart';
 import 'package:google/utils/constants/text_strings.dart';
@@ -85,7 +87,7 @@ class SeeSignUpForm extends StatelessWidget {
           SizedBox(
             width: double.infinity,
             child: ElevatedButton(
-              onPressed: () {},
+              onPressed: () => Get.to(()=> const VerifyEmailScreen()),
               child: const Text(SeeTexts.createAccount),
             ),
           ),

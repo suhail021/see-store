@@ -68,6 +68,7 @@ flutter:
   assets:
     - assets/images/on_boarding_images/
     - assets/logos/
+    - assets/images/animations/
   #   - assets/images/
   #   - assets/quran_pages/
   #   - images/a_dot_ham.jpeg

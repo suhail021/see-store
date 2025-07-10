@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:google/features/authentication/screens/password_configuration/forget_password.dart';
 import 'package:google/features/authentication/screens/signup/signup_screen.dart';
 import 'package:google/utils/constants/sizes.dart';
 import 'package:google/utils/constants/text_strings.dart';
@@ -54,7 +55,7 @@ class SeeLoginForm extends StatelessWidget {
                     overlayColor: WidgetStateProperty.all(Colors.transparent),
                     splashFactory: NoSplash.splashFactory,
                   ),
-                  onPressed: () {},
+                  onPressed: () => Get.to(() => const ForgetPassword()),
                   child: Text(SeeTexts.forgetPassword),
                 ),
               ],

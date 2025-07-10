@@ -48,6 +48,7 @@ class SeeTexts {
     static const changeYourPasswordTitle = "Password Rest Email Sent";
     static const changeYourPasswordSubTitle = "Your Account Security is Our Priority! We've Sent You a Secure Link to Safely Change Your Password and Keep Your Account Protected.";
     static const confirmEmail = "Verify your email address!";
+    static const done = "done";
     static const confirmEmailSubTitle = "Congratulations! your Account Awaits: Verify Your Email to Start Shopping and Experience a world of Unrivaled Deals and Personalized Offers.";
     static const emailNotReceivedMessage  = "Didn't get the email? Check your junk/span or resend it.";
     static const yourAccountCreatedTitle  = "Your account successfully created!";

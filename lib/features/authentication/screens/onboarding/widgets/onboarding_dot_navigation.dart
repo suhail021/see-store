@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:google/features/authentication/controllrts.onboarding/onboarding_controller.dart';
+import 'package:google/features/authentication/controllrts/onboarding/onboarding_controller.dart';
 import 'package:google/utils/constants/colors.dart';
 import 'package:google/utils/constants/sizes.dart';
 import 'package:google/utils/device/device_utility.dart';
@@ -16,12 +16,12 @@ class OnboardingDotNavigation extends StatelessWidget {
 
     return Positioned(
       bottom: SeeDeviceUtils.getBottomNavigationBarHeight() + 25,
-      left: SeeSizes().defaultSpace,
+      left: SeeSizes.defaultSpace,
 
       child: SmoothPageIndicator(
         effect: ExpandingDotsEffect(
           activeDotColor:
-              dark ? SeeColors().lightBackground : SeeColors().darkBackground,
+              dark ? SeeColors.lightBackground : SeeColors.darkBackground,
           dotHeight: 6,
         ),
         controller: controller.pageController,

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google/common/styles/spacing_styles.dart';
-import 'package:google/features/authentication/screens/login/widgets/see_form_divider.dart';
+import 'package:google/common/widgets/login_signup/see_form_divider.dart';
 import 'package:google/features/authentication/screens/login/widgets/see_login_form.dart';
 import 'package:google/features/authentication/screens/login/widgets/see_login_header.dart';
-import 'package:google/features/authentication/screens/login/widgets/see_social_buttons.dart';
+import 'package:google/common/widgets/login_signup/see_social_buttons.dart';
 import 'package:google/utils/constants/sizes.dart';
 import 'package:google/utils/constants/text_strings.dart';
 
@@ -26,12 +26,13 @@ class LoginScreen extends StatelessWidget {
               SeeLoginForm(),
               //Dvider
               SeeFormDivider(
-                dividerText: SeeTexts.orSignInWith.capitalize as String,
+                dividerText: SeeTexts.orSignInWith.capitalize!,
               ),
-              SizedBox(height: SeeSizes().spaceBtwItems),
+              SizedBox(height: SeeSizes.spaceBtwItems),
 
               /// Footer
               SeeSocialButtons(),
+              
             ],
           ),
         ),

@@ -27,10 +27,12 @@ class SeeTexts {
   static const rememberMe = "Remember Me";
   static const forgetPassword = "Forget Password";
   static const signIn = "SignIn";
+  static const signup = "signUp";
   static const createAccount = "Create Account";
   static const orSignInWith = "or sign in with";
   static const orSignUpWith = "or sign up with";
   static const iAgreeTo = "I agree to";
+  static const and = "and";
   static const privacyPolicy = "Privacy Policy";
   static const termOfUse = "Term of use";
   static const verificationCode = "verificationCode";

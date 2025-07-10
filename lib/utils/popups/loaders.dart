@@ -23,8 +23,8 @@ class TLoaders {
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(30),
             color: SeeHelperFunctions.isDarkMode(Get.context!)
-                ? SeeColors().darkerGrey.withValues(alpha: 0.9)
-                : SeeColors().grey.withValues(alpha: 0.9),
+                ? SeeColors.darkerGrey.withValues(alpha: 0.9)
+                : SeeColors.grey.withValues(alpha: 0.9),
           ),
           child: Center(
               child: Text(message,
@@ -42,11 +42,11 @@ class TLoaders {
       isDismissible: true,
       shouldIconPulse: true,
       colorText: Colors.white,
-      backgroundColor: SeeColors().primary,
+      backgroundColor: SeeColors.primary,
       snackPosition: SnackPosition.BOTTOM,
       duration: Duration(seconds: duration),
       margin: const EdgeInsets.all(10),
-      icon: Icon(Iconsax.check, color: SeeColors().white),
+      icon: Icon(Iconsax.check, color: SeeColors.white),
     );
   }
 
@@ -57,12 +57,12 @@ class TLoaders {
       maxWidth: 600,
       isDismissible: true,
       shouldIconPulse: true,
-      colorText: SeeColors().white,
+      colorText: SeeColors.white,
       backgroundColor: Colors.orange,
       snackPosition: SnackPosition.BOTTOM,
       duration: const Duration(seconds: 3),
       margin: const EdgeInsets.all(20),
-      icon: Icon(Iconsax.warning_2, color: SeeColors().white),
+      icon: Icon(Iconsax.warning_2, color: SeeColors.white),
     );
   }
 
@@ -73,12 +73,12 @@ class TLoaders {
       maxWidth: 600,
       isDismissible: true,
       shouldIconPulse: true,
-      colorText: SeeColors().white,
+      colorText: SeeColors.white,
       backgroundColor: Colors.red.shade600,
       snackPosition: SnackPosition.BOTTOM,
       duration: const Duration(seconds: 3),
       margin: const EdgeInsets.all(20),
-      icon: Icon(Iconsax.warning_2, color: SeeColors().white),
+      icon: Icon(Iconsax.warning_2, color: SeeColors.white),
     );
   }
 }

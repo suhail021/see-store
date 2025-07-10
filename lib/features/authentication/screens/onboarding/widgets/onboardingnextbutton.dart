@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:google/features/authentication/controllrts.onboarding/onboarding_controller.dart';
+import 'package:google/features/authentication/controllrts/onboarding/onboarding_controller.dart';
 import 'package:google/utils/constants/exports.dart';
 import 'package:google/utils/device/device_utility.dart';
 import 'package:google/utils/helpers/helper_functions.dart';
@@ -11,7 +11,7 @@ class OnboardingNextButton extends StatelessWidget {
   Widget build(BuildContext context) {
     final dark = SeeHelperFunctions.isDarkMode(context);
     return Positioned(
-      right: SeeSizes().defaultSpace,
+      right: SeeSizes.defaultSpace,
       bottom: SeeDeviceUtils.getBottomNavigationBarHeight(),
       child: ElevatedButton(
         onPressed: () {
@@ -19,7 +19,7 @@ class OnboardingNextButton extends StatelessWidget {
         },
         style: ElevatedButton.styleFrom(
           shape: const CircleBorder(),
-          backgroundColor: dark ? SeeColors().primary : Colors.black,
+          backgroundColor: dark ? SeeColors.primary : Colors.black,
         ),
         child: const Icon(Iconsax.arrow_right_3),
       ),

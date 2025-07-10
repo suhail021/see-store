@@ -162,18 +162,18 @@ class SeeDeviceUtils {
 
   /// Returns true if the device screen is large enough for desktop view.
   static bool isDesktopScreen(BuildContext context) {
-    return MediaQuery.of(context).size.width >= SeeSizes().desktopScreenSize;
+    return MediaQuery.of(context).size.width >= SeeSizes.desktopScreenSize;
   }
 
   /// Returns true if the device screen is large enough for tablet view but not desktop.
   static bool isTabletScreen(BuildContext context) {
-    return MediaQuery.of(context).size.width >= SeeSizes().tabletScreenSize &&
-        MediaQuery.of(context).size.width < SeeSizes().desktopScreenSize;
+    return MediaQuery.of(context).size.width >= SeeSizes.tabletScreenSize &&
+        MediaQuery.of(context).size.width < SeeSizes.desktopScreenSize;
   }
 
   /// Returns true if the device screen is smaller than tablet size, i.e., mobile.
   static bool isMobileScreen(BuildContext context) {
-    return MediaQuery.of(context).size.width < SeeSizes().tabletScreenSize;
+    return MediaQuery.of(context).size.width < SeeSizes.tabletScreenSize;
   }
 
   // Haptic Feedback

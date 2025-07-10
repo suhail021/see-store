@@ -27,7 +27,7 @@ class SeeLoginHeader extends StatelessWidget {
                     SeeTexts.loginTitle,
                     style: Theme.of(context).textTheme.headlineMedium,
                   ),
-                  SizedBox(height: SeeSizes().sm),
+                  SizedBox(height: SeeSizes.sm),
                   Text(
                     SeeTexts.loginSubTitle,
                     style: Theme.of(context).textTheme.bodyMedium,

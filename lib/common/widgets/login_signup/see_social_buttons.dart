@@ -13,30 +13,30 @@ class SeeSocialButtons extends StatelessWidget {
       children: [
         Container(
           decoration: BoxDecoration(
-            border: Border.all(color: SeeColors().grey),
+            border: Border.all(color: SeeColors.grey),
             borderRadius: BorderRadius.circular(100),
           ),
           child: IconButton(
             onPressed: () {},
             icon: Image(
-              height: SeeSizes().iconMd,
-              width: SeeSizes().iconMd,
+              height: SeeSizes.iconMd,
+              width: SeeSizes.iconMd,
               image: AssetImage(SeeImage.google),
             ),
           ),
         ),
-        SizedBox(width: SeeSizes().spaceBtwItems),
+        SizedBox(width: SeeSizes.spaceBtwItems),
 
         Container(
           decoration: BoxDecoration(
-            border: Border.all(color: SeeColors().grey),
+            border: Border.all(color: SeeColors.grey),
             borderRadius: BorderRadius.circular(100),
           ),
           child: IconButton(
             onPressed: () {},
             icon: Image(
-              height: SeeSizes().iconMd,
-              width: SeeSizes().iconMd,
+              height: SeeSizes.iconMd,
+              width: SeeSizes.iconMd,
               image: AssetImage(SeeImage.facebook),
             ),
           ),

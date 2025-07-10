@@ -48,7 +48,7 @@ class SeeTextTheme {
     bodySmall: const TextStyle().copyWith(
       fontSize: 14,
       fontWeight: FontWeight.w500,
-      color: Colors.black,
+      color: Colors.grey,
     ),
 
     labelLarge: const TextStyle().copyWith(
@@ -109,7 +109,7 @@ class SeeTextTheme {
     bodySmall: const TextStyle().copyWith(
       fontSize: 14,
       fontWeight: FontWeight.w500,
-      color: Colors.white,
+      color: Colors.grey,
     ),
 
     labelLarge: const TextStyle().copyWith(

@@ -12,11 +12,16 @@ class ResetPassword extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final dark = SeeHelperFunctions.isDarkMode(context);
+
     return Scaffold(
       appBar: AppBar(
         automaticallyImplyLeading: false,
         leading: IconButton(
-          icon: Icon(Icons.arrow_back),
+          icon: Icon(
+            Icons.arrow_back,
+            color: dark ? Colors.white : Colors.black,
+          ),
           onPressed: () => Get.back(),
         ),
         actions: [
@@ -61,7 +66,7 @@ class ResetPassword extends StatelessWidget {
                   child: Text(SeeTexts.seeContinue),
                 ),
               ),
-              SizedBox(height: SeeSizes.spaceBtwItems,),
+              SizedBox(height: SeeSizes.spaceBtwItems),
               TextButton(
                 style: ButtonStyle(
                   overlayColor: WidgetStateProperty.all(Colors.transparent),

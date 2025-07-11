@@ -58,5 +58,5 @@ class SeeTexts {
 
 
   static const String homeAppbarTitle = "Good day for shopping";
-  static const String homeAppbarSubTitle = "Taimoor skander";
+  static const String homeAppbarSubTitle = "Taimoor Skander";
 }

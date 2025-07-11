@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google/common/widgets/custom_shapes/containers/primary_header_container.dart';
+import 'package:google/features/shop/screens/home/widgets/home_app_bar.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -10,11 +11,19 @@ class HomeScreen extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            SeePrimaryHeaderContainer( 
+            SeePrimaryHeaderContainer(
               child: Column(
                 children: [
-        ],
-        ))],
+                  //AppBar
+                  SeeHomeAppBar(),
+
+                  //Searchbar
+                   
+                  //Categories
+                ],
+              ),
+            ),
+          ],
         ),
       ),
     );

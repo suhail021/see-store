@@ -12,12 +12,32 @@ class SeeImage {
   static const String onBoardingImage3 =
       "assets/images/on_boarding_images/on_boarding3.gif";
 
+  static const String productsIllustration =
+      "assets/images/animations/on_boarding1.gif";
+  static const String productsSaleIllustration =
+      "assets/images/animations/on_boarding1.gif";
+  static const String staticSuccessIllustration =
+      "assets/images/animations/on_boarding1.gif";
+  static const String deliveredInPlaneIllustration =
+      "assets/images/animations/on_boarding1.gif";
+  static const String deliveredEmailIllustration =
+      "assets/images/animations/on_boarding1.gif";
+  static const String verifyIllustration =
+      "assets/images/animations/on_boarding1.gif";
 
-  static const String productsIllustration = "assets/images/animations/on_boarding1.gif";
-  static const String productsSaleIllustration = "assets/images/animations/on_boarding1.gif";
-  static const String staticSuccessIllustration = "assets/images/animations/on_boarding1.gif";
-  static const String deliveredInPlaneIllustration = "assets/images/animations/on_boarding1.gif";
-  static const String deliveredEmailIllustration = "assets/images/animations/on_boarding1.gif";
-  static const String verifyIllustration = "assets/images/animations/on_boarding1.gif";
-
+  ///categories
+  static const sportIcon  =
+      "assets/icons/categoties/icons8-clothes-64.png";
+  static const clothIcon  =
+      "assets/images/animations/on_boarding1.gif";
+  static const cosemticsIcon  =
+      "assets/images/animations/on_boarding1.gif";
+  static const toyIcon  =
+      "assets/images/animations/on_boarding1.gif";
+  static const furnitureIcon  =
+      "assets/images/animations/on_boarding1.gif";
+  static const jeweleryIcon  =
+      "assets/images/animations/on_boarding1.gif";
+  static const electronicsIcon  =
+      "assets/images/animations/on_boarding1.gif";
 }

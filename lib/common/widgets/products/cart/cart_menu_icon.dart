@@ -17,14 +17,16 @@ class SeeCartCounterIcon extends StatelessWidget {
         Positioned(
           right: 5,
           child: Container(
-            // width: 18,
-            // height: 18,
+            width: 18,
+            height: 18,
             decoration: BoxDecoration(
               color: SeeColors.black,
               borderRadius: BorderRadius.circular(100),
             ),
             child: Center(
-              child: Text(
+              child: Text( 
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
                 '2',
                 style: Theme.of(context).textTheme.labelLarge!.apply(
                   color: SeeColors.white,

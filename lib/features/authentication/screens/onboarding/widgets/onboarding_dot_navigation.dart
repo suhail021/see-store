@@ -21,7 +21,7 @@ class OnboardingDotNavigation extends StatelessWidget {
       child: SmoothPageIndicator(
         effect: ExpandingDotsEffect(
           activeDotColor:
-              dark ? SeeColors.lightBackground : SeeColors.darkBackground,
+              dark ? SeeColors.lightBackground : SeeColors.dark,
           dotHeight: 6,
         ),
         controller: controller.pageController,

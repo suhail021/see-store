@@ -29,6 +29,9 @@ class SeeColors {
   // Background colors
   static const Color lightBackground = Color(0xFFEBEFF3);
   static const Color darkBackground = Color(0xFF02040A);
+  //  colors
+  static const Color light = Color(0xFFf6f6f6);
+  static const Color dark = Color(0xFF272727);
 
   // Container backgrounds
   static const Color lightContainer = Color(0xFFF3F4F6);

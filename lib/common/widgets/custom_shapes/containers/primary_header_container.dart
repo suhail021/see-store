@@ -18,7 +18,7 @@ class SeePrimaryHeaderContainer extends StatelessWidget {
             children: [
               Positioned(
                 top: -150,
-                right: -270,
+                right: -250,
                 child: SeeCircularContainer(
                   backgroundColor: SeeColors.textWhite.withOpacity(0.1),
                 ),

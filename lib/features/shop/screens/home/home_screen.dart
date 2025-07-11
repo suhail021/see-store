@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google/common/widgets/custom_shapes/curved_edges/curved_edges.dart';
+import 'package:google/common/widgets/custom_shapes/curved_edges/curved_edges_widget.dart';
 import 'package:google/features/shop/screens/home/widgets/see_cirular_containar.dart';
 import 'package:google/utils/constants/colors.dart';
 
@@ -12,8 +13,7 @@ class HomeScreen extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            ClipPath(
-              clipper: SeeCustomCurvedEdges(),
+            SeeCurvedEdgeWidget(
               child: Container(
                 color: SeeColors.primary,
                 padding: const EdgeInsets.all(0),

@@ -10,7 +10,7 @@ class SeeSearchContainer extends StatelessWidget {
   const SeeSearchContainer({
     super.key,
     required this.text,
-    this.icon =Iconsax.search_normal,
+    this.icon = Iconsax.search_normal,
     this.showBackground = true,
     this.showBorder = true,
     this.onTap,
@@ -37,7 +37,8 @@ class SeeSearchContainer extends StatelessWidget {
                         : SeeColors.lightBackground
                     : Colors.transparent,
             borderRadius: BorderRadius.circular(SeeSizes.cardRadiusLg),
-            border: showBorder ? Border.all(color: SeeColors.grey) : null,
+            border:
+                showBorder && !dark ? Border.all(color: SeeColors.grey) : null,
           ),
           child: Row(
             children: [

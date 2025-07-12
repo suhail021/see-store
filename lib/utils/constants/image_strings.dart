@@ -40,4 +40,11 @@ class SeeImage {
       "assets/images/animations/on_boarding1.gif";
   static const electronicsIcon  =
       "assets/images/animations/on_boarding1.gif";
+
+    static const promoBanner1  =
+      "assets/images/banners/promo-banner1.jpg";
+    static const promoBanner2  =
+      "assets/images/banners/promo-banner2.jpg";
+    static const promoBanner3  =
+      "assets/images/banners/promo-banner-3.jpg";
 }

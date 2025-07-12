@@ -10,20 +10,23 @@ class SeeCircularContainer extends StatelessWidget {
     this.padding = 0,
     this.child,
     this.backgroundColor = SeeColors.white,
+    this.margin,
   });
   final double? width, height;
   final double radius, padding;
   final Widget? child;
   final Color backgroundColor;
+  final EdgeInsets? margin;
   @override
   Widget build(BuildContext context) {
     return Container(
       width: width,
       height: height,
       padding: EdgeInsets.all(padding),
+      margin: margin,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(radius),
-        color: SeeColors.textWhite.withOpacity(0.1),
+        color: backgroundColor,
       ),
     );
   }

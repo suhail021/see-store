@@ -1,12 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 import 'package:google/features/authentication/screens/login/login_screen.dart';
 import 'package:google/features/authentication/screens/password_configuration/reset_password.dart';
 import 'package:google/utils/constants/sizes.dart';
 import 'package:google/utils/constants/text_strings.dart';
-import 'package:google/utils/helpers/helper_functions.dart';
 import 'package:iconsax/iconsax.dart';
 
 class ForgetPassword extends StatelessWidget {

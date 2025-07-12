@@ -1,9 +1,14 @@
+import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:google/common/widgets/custom_shapes/containers/primary_header_container.dart';
+import 'package:google/common/widgets/custom_shapes/containers/see_cirular_containar.dart';
+import 'package:google/common/widgets/images/see_rounded_image.dart';
 import 'package:google/common/widgets/texts/section_heading.dart';
 import 'package:google/features/shop/screens/home/widgets/home_app_bar.dart';
 import 'package:google/features/shop/screens/home/widgets/home_categories.dart';
+import 'package:google/features/shop/screens/home/widgets/home_promo.dart';
 import 'package:google/features/shop/screens/home/widgets/search_container.dart';
+import 'package:google/utils/constants/image_strings.dart';
 import 'package:google/utils/exports.dart';
 import 'package:iconsax/iconsax.dart';
 
@@ -48,6 +53,19 @@ class HomeScreen extends StatelessWidget {
                   ),
                 ],
               ),
+            ),
+            //body
+            Padding(
+              padding: EdgeInsetsGeometry.symmetric(
+                // horizontal: SeeSizes.defaultSpace,
+                vertical: SeeSizes.sm,
+              ),
+              child: SeePromoSlider(banners: [
+                SeeImage.promoBanner1,
+                SeeImage.promoBanner2,
+                SeeImage.promoBanner3,
+                SeeImage.promoBanner3,
+              ],),
             ),
           ],
         ),

@@ -1,9 +1,7 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google/features/shop/screens/home/home_screen.dart';
 import 'package:google/utils/exports.dart';
-import 'package:google/utils/helpers/helper_functions.dart';
 import 'package:iconsax/iconsax.dart';
 
 class NavigationMenu extends StatelessWidget {
